@@ -1,0 +1,10 @@
+{
+    "git.enableSmartCommit": true,
+    "terminal.integrated.fontSize": 12,
+    "editor.fontSize": 12,
+    "markdown.preview.fontSize": 12,
+    "markdown.preview.lineHeight": 1.4,
+    "editor.codeLens": false,
+    "extensions.ignoreRecommendations": false,
+    "explorer.confirmDelete": false
+}

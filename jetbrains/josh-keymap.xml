@@ -1,0 +1,135 @@
+<keymap version="1" name="josh-keymap" parent="$default">
+  <action id="ActivateDockerToolWindow">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="Arrangement.Rule.Group.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="ChooseRunConfiguration" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CopyElement" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f5" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="EditorContextInfo" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EditorJoinLines" />
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorToggleCase" />
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift up" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+  </action>
+  <action id="ExpressionTypeInfo" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
+  <action id="ImplementMethods" />
+  <action id="InsertLiveTemplate" />
+  <action id="MethodDown" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="MethodUp" />
+  <action id="ProjectViewChangeView" />
+  <action id="QuickChangeScheme" />
+  <action id="QuickImplementations" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt add" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt f5" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="SelectIn" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowContent" />
+  <action id="ShowErrorDescription" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="UML.ApplyCurrentLayout" />
+  <action id="UsageView.Rerun">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="XDebugger.MoveWatchDown" />
+</keymap>

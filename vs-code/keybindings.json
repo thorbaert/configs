@@ -69,5 +69,25 @@
         "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
+    },
+    {
+        "key": "alt+a",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save"
     }
 ]

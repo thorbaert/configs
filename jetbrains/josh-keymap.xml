@@ -123,6 +123,10 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="ToggleBookmark" />
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="UML.ApplyCurrentLayout" />
   <action id="UsageView.Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />

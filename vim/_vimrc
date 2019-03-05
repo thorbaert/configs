@@ -1,0 +1,13 @@
+
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+
+" basic windows key bindings
+source $VIMRUNTIME/mswin.vim
+behave mswin
+
+colorscheme pablo
+
+set noundofile
+set nobackup
+

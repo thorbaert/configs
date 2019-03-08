@@ -6,7 +6,18 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
-colorscheme pablo
+
+colorscheme open-color
+
+syntax on
+
+set expandtab 
+set tabstop=4
+set shiftwidth=4
+
+set number
+set ignorecase
+set noerrorbells visualbell t_vb=
 
 set noundofile
 set nobackup

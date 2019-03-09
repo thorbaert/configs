@@ -1,3 +1,4 @@
+call plug#begin()
 
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim

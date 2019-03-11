@@ -85,6 +85,8 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="MethodDown" />
@@ -97,6 +99,9 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt add" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt f5" />
   </action>
@@ -104,6 +109,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="SelectIn" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowContent" />

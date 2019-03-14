@@ -6,8 +6,9 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+call plug#begin()
 
-colorscheme pablo
+colorscheme josh-console
 
 syntax on
 

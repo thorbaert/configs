@@ -6,8 +6,6 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
-call plug#begin()
-
 colorscheme josh-console
 
 syntax on
@@ -22,4 +20,6 @@ set noerrorbells visualbell t_vb=
 
 set noundofile
 set nobackup
+
+map <F5> :wall!<CR>:!sbcl --load foo.cl<CR><CR>
 

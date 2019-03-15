@@ -21,5 +21,5 @@ set noerrorbells visualbell t_vb=
 set noundofile
 set nobackup
 
-map <F5> :wall!<CR>:!sbcl --load foo.cl<CR><CR>
+map <F2> :Ex<CR>
 

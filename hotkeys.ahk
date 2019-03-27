@@ -1,5 +1,5 @@
 
 ^f12::
-run msg 'hello there'
+MsgBox, hello there
 return
 

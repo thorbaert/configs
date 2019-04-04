@@ -6,6 +6,8 @@
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -85,6 +87,11 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="GotoPreviousError" />
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="ImplementMethods" />
@@ -141,5 +148,7 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
+  <action id="XDebugger.SetValue" />
 </keymap>

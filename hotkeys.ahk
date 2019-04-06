@@ -1,5 +1,5 @@
 
 ^f12::
-MsgBox, hello there
+DllCall("user32.dll\LockWorkStation")
 return
 

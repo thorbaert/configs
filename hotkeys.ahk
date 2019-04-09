@@ -3,3 +3,4 @@
 DllCall("user32.dll\LockWorkStation")
 return
 
+

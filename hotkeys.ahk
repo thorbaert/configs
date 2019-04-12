@@ -1,5 +1,5 @@
-;#InstallKeybdHook
-;#InstallMouseHook
+; #InstallKeybdHook
+; #InstallMouseHook
 
 ^!Numpad4::
 ^!NumpadLeft::
@@ -17,11 +17,11 @@ Send, {Media_Next}
 return
 
 ^f12::
-Run calc.exe
+DllCall("user32.dll\LockWorkStation")
 return
 
 ^f11::
-DllCall("user32.dll\LockWorkStation")
+Run calc.exe
 return
 
 ^f10::

@@ -3,7 +3,7 @@
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2019-06-04T18:27:54</property>
+    <property name="modified">2019-06-06T17:56:33</property>
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
   <colors>
@@ -13711,7 +13711,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="e0e0e0" />
-        <option name="BACKGROUND" value="2b2c26" />
+        <option name="BACKGROUND" value="272822" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

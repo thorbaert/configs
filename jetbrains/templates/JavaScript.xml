@@ -49,7 +49,7 @@
   <template name="&gt;&gt;&gt;" value="($vars$) =&gt; $END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="vars" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="s&gt;&gt;" value="(() =&gt; {&#10;    switch($TEST$){&#10;        case $CASE$:&#10;            return $PROD$&#10;        default:&#10;            return $END$&#10;    }&#10;})()" toReformat="false" toShortenFQNames="true">
+  <template name="s&gt;&gt;" value="(() =&gt; {&#10;    switch($TEST$){&#10;        case $CASE$:&#10;            return $PROD$&#10;        default:&#10;            return $END$&#10;    }&#10;})()" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CASE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PROD" expression="" defaultValue="" alwaysStopAt="true" />

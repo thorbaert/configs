@@ -54,6 +54,7 @@
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="3" />
     <option name="BLANK_LINES_AROUND_METHOD" value="0" />
+    <option name="INDENT_CASE_FROM_SWITCH" value="false" />
     <option name="ALIGN_MULTILINE_FOR" value="false" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
@@ -93,7 +94,7 @@
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="3" />
     <option name="BLANK_LINES_AROUND_METHOD" value="0" />
-    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="INDENT_CASE_FROM_SWITCH" value="false" />
     <option name="ALIGN_MULTILINE_FOR" value="false" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />

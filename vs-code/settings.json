@@ -7,5 +7,5 @@
     "editor.codeLens": false,
     "extensions.ignoreRecommendations": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 0
 }

@@ -28,6 +28,10 @@ return
 KeyHistory
 return
 
+^f1::
+Run, powershell.exe "no-sleep"
+return
+
 
 ; !f1::
 ; Send, {1}

@@ -1,15 +1,18 @@
 ; #InstallKeybdHook
 ; #InstallMouseHook
 
-^!Left::
+^+Numpad4::
+^+NumpadLeft::
 Send, {Media_Prev}
 return
 
-^!Down::
+^+Numpad5::
+^+NumpadClear::
 Send, {Media_Play_Pause}
 return
 
-^!Right::
+^+Numpad6::
+^+NumpadRight::
 Send, {Media_Next}
 return
 

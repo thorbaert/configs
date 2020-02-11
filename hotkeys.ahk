@@ -1,20 +1,20 @@
-; #InstallKeybdHook
-; #InstallMouseHook
+#InstallKeybdHook
+#InstallMouseHook
 
-; ^!+Numpad4::
-; ^!+NumpadLeft::
-; Send, {Media_Prev}
-; return
+^!+Numpad4::
+^!+NumpadLeft::
+Send, {Media_Prev}
+return
 
-; ^!+Numpad5::
-; ^!+NumpadClear::
-; Send, {Media_Play_Pause}
-; return
+^!+Numpad5::
+^!+NumpadClear::
+Send, {Media_Play_Pause}
+return
 
-; ^!+Numpad6::
-; ^!+NumpadRight::
-; Send, {Media_Next}
-; return
+^!+Numpad6::
+^!+NumpadRight::
+Send, {Media_Next}
+return
 
 ^f12::
 DllCall("user32.dll\LockWorkStation")
@@ -30,6 +30,11 @@ return
 
 ^f1::
 Run, powershell.exe "no-sleep"
+return
+
+
+^#i::
+Run, "C:\Users\jbaert\AppData\Local\Microsoft\WindowsApps\wt.exe"
 return
 
 

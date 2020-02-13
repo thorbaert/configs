@@ -1,6 +1,7 @@
 
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
+// Schema Doc https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md
 
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
@@ -39,9 +40,9 @@
         },
         {
           "guid": "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
+          "hidden": true,
           "name": "cmd",
-          "commandline": "cmd.exe",
-          "hidden": true
+          "commandline": "cmd.exe"
         }
     ],
 

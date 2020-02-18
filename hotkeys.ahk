@@ -1,19 +1,26 @@
 #InstallKeybdHook
 #InstallMouseHook
 
-^!+Numpad4::
-^!+NumpadLeft::
+^!Numpad1::
 Send, {Media_Prev}
 return
 
-^!+Numpad5::
-^!+NumpadClear::
+^!Numpad2::
 Send, {Media_Play_Pause}
 return
 
-^!+Numpad6::
-^!+NumpadRight::
+^!Numpad3::
 Send, {Media_Next}
+return
+
+^!NumpadDiv::
+Send, {Volume_Mute}
+return
+^!NumpadMult::
+Send, {Volume_Down}
+return
+^!NumpadSub::
+Send, {Volume_Up}
 return
 
 ^f12::
@@ -35,6 +42,15 @@ return
 
 ^#i::
 Run, "C:\Users\jbaert\AppData\Local\Microsoft\WindowsApps\wt.exe"
+return
+
+^#n::
+Run, "C:\ProgramData\chocolatey\bin\micro.exe"
+return
+
+^#Up:: 
+Send, {LWin}
+Send, {Tab}
 return
 
 

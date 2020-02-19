@@ -41,7 +41,7 @@ return
 
 
 ^#i::
-Run, "C:\Users\jbaert\AppData\Local\Microsoft\WindowsApps\wt.exe"
+Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
 return
 
 ^#n::

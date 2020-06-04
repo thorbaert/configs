@@ -42,7 +42,7 @@ Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
 return
 
 ^#n::
-Run, C:\ProgramData\chocolatey\bin\micro.exe "/tools/notes.txt", C:\tools
+Run, notepad.exe "/tools/notes.txt", C:\tools
 return
 
 ^#Up:: 

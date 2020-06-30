@@ -42,7 +42,7 @@ Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
 return
 
 ^#n::
-Run, notepad.exe "/tools/notes.txt", C:\tools
+Run, "C:\Program Files\Microsoft VS Code\bin\code" "/tools/notes", C:\tools
 return
 
 ^#Up:: 

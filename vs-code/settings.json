@@ -7,7 +7,7 @@
     "editor.codeLens": false,
     "extensions.ignoreRecommendations": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 1,
     "powershell.scriptAnalysis.enable": false,
     "liveshare.featureSet": "insiders"
 }

@@ -1,6 +1,8 @@
 #InstallKeybdHook
 #InstallMouseHook
 
+; Media Keys
+
 ^!Numpad1::
 Send, {Media_Prev}
 return
@@ -21,6 +23,18 @@ return
 Send, {Volume_Up}
 return
 
+; Utils
+
+^#i::
+Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
+return
+
+^#n::
+Run, "C:\Program Files\Microsoft VS Code\bin\code" "/tools/notes", C:\tools
+return
+
+; Ctrl combos
+
 ^f12::
 DllCall("user32.dll\LockWorkStation")
 return
@@ -37,15 +51,8 @@ return
 Run, powershell.exe "no-sleep"
 return
 
-^#i::
-Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
-return
+; Alt Combos
 
-^#n::
-Run, "C:\Program Files\Microsoft VS Code\bin\code" "/tools/notes", C:\tools
-return
-
-^#Up:: 
-Send, {LWin}
-Send, {Tab}
+^!f9::
+Send, {PrintScreen}
 return

@@ -30,7 +30,7 @@ Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
 return
 
 ^#n::
-Run, "C:\Program Files\Microsoft VS Code\bin\code" "/tools/notes", C:\tools
+Run, "C:\Program Files\Microsoft VS Code\bin\code" "/tools/notes", C:\tools, hide
 return
 
 ; Ctrl combos

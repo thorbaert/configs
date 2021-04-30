@@ -148,9 +148,6 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
-  <action id="WrapTagAction">
-    <keyboard-shortcut first-keystroke="alt j" />
-  </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.SetValue" />

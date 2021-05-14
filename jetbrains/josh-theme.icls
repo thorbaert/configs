@@ -3,7 +3,7 @@
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2019-08-06T17:17:12</property>
+    <property name="modified">2021-05-13T17:51:04</property>
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
   <colors>
@@ -29,8 +29,7 @@
         <option name="BACKGROUND" value="f92672" />
       </value>
     </option>
-    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING" />
-    <option name="BASH.INTERNAL_COMMAND" baseAttributes="BASH.EXTERNAL_COMMAND" />
+    <option name="BASH.INTERNAL_COMMAND" baseAttributes="" />
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="743d3d" />
@@ -304,7 +303,7 @@
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="EFFECT_COLOR" value="c7c7ff" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -806,6 +805,11 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="22231c" />
+      </value>
+    </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -13724,6 +13728,11 @@
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
+      </value>
+    </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="BACKGROUND" value="454141" />
       </value>
     </option>
     <option name="TYPEDEF">

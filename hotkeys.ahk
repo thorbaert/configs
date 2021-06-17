@@ -3,13 +3,13 @@
 
 ; Media Keys
 
-^!Numpad1::
+^!Numpad7::
 Send, {Media_Prev}
 return
-^!Numpad2::
+^!Numpad8::
 Send, {Media_Play_Pause}
 return
-^!Numpad3::
+^!Numpad9::
 Send, {Media_Next}
 return
 

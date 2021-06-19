@@ -18,6 +18,7 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CollapseBlock" />
   <action id="CopyElement" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f5" />
@@ -100,6 +101,9 @@
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+  </action>
   <action id="ProjectViewChangeView" />
   <action id="QuickChangeScheme" />
   <action id="QuickImplementations" />

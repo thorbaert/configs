@@ -9,5 +9,10 @@
     "explorer.confirmDelete": false,
     "powershell.scriptAnalysis.enable": false,
     "liveshare.featureSet": "insiders",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "cSpell.userWords": [
+        "Carvajal",
+        "PDLA",
+        "Pura"
+    ]
 }

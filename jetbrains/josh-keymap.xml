@@ -11,6 +11,9 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -88,9 +91,6 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
-  <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
   <action id="GotoNextError" />
   <action id="GotoPreviousError" />
   <action id="GotoTest" />
@@ -109,6 +109,10 @@
   <action id="QuickImplementations" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt add" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />

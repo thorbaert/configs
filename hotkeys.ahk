@@ -4,55 +4,61 @@
 ; Media Keys
 
 ^!Numpad7::
-Send, {Media_Prev}
-return
+    Send, {Media_Prev}
+    return
 ^!Numpad8::
-Send, {Media_Play_Pause}
-return
+    Send, {Media_Play_Pause}
+    return
 ^!Numpad9::
-Send, {Media_Next}
-return
+    Send, {Media_Next}
+    return
 
 ^!NumpadDiv::
-Send, {Volume_Mute}
-return
+    Send, {Volume_Mute}
+    return
 ^!NumpadMult::
-Send, {Volume_Down}
-return
+    Send, {Volume_Down}
+    return
 ^!NumpadSub::
-Send, {Volume_Up}
-return
+    Send, {Volume_Up}
+    return
+
+^!.::
+^!NumpadEnter::
+    Run nircmd mutesysvolume 2 microphone
+    return
+
 
 ; Utils
 
 ^#i::
-Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
-return
+    Run, "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
+    return
 
 ^#n::
-Run, "C:\Program Files\Microsoft VS Code\bin\code" "/tools/notes", C:\tools, hide
-return
+    Run, "C:\Program Files\Microsoft VS Code\bin\code" "/tools/notes", C:\tools, hide
+    return
 
 ; Ctrl combos
 
 ^f12::
-DllCall("user32.dll\LockWorkStation")
-return
+    DllCall("user32.dll\LockWorkStation")
+    return
 
 ^f11::
-Run calc.exe
-return
+    Run calc.exe
+    return
 
 ^f10::
-KeyHistory
-return
+    KeyHistory
+    return
 
 ^f1::
-Run, powershell.exe "no-sleep"
-return
+    Run, powershell.exe "no-sleep"
+    return
 
 ; Alt Combos
 
 ^!f9::
-Send, {PrintScreen}
-return
+    Send, {PrintScreen}
+    return

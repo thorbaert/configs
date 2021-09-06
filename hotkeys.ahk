@@ -25,7 +25,7 @@
 
 ^!.::
 ^!NumpadEnter::
-    Run nircmd mutesysvolume 2 microphone
+    Run, nircmd mutesysvolume 2 microphone
     return
 
 

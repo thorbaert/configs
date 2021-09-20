@@ -16,7 +16,8 @@ Restart:
 Selecting := False
 OldX := -1, OldY := -1
 Locked  := False
-Visible := False			;<= determine start-up behaviour
+Visible := True			;<= determine start-up behaviour
+CrosshairOn := True			;<= determine start-up behaviour
 
 
 ID1 := Box(2,1,40)
@@ -31,9 +32,7 @@ Return
 
 
 ; === Toggle lock of crosshairs
-;KeyWait, RButton, D
-^NumpadDot::
-;RButton::             ;using hotkey instead of waiting for a key keeps the right click from calling other behavior during script
+^NumpadDot::           ;using hotkey instead of waiting for a key keeps the right click from calling other behavior during script
 if (Visible == False) {
     WinShow ahk_id %ID1%,, 
     WinShow ahk_id %ID2%,, 
@@ -52,15 +51,32 @@ Return
 
 ; === Toggle display of crosshairs
 ^Numpad0::
-if (Visible == True) {
-    WinHide ahk_id %ID1%,, 
-    WinHide ahk_id %ID2%,, 
+!F11::
+if(CrosshairOn) {
+    WinHide ahk_id %ID1%,,
+    WinHide ahk_id %ID2%,,
     Visible := False
-	}
-else {
+    CrosshairOn := False
+} else {
     WinShow ahk_id %ID1%,,
     WinShow ahk_id %ID2%,,
     Visible := True
+    CrosshairOn := True
+}
+Return
+
+
+~RButton::
+if(CrosshairOn) {
+    if (Visible == True) {
+        WinHide ahk_id %ID1%,,
+        WinHide ahk_id %ID2%,,
+        Visible := False
+    } else {
+        WinShow ahk_id %ID1%,,
+        WinShow ahk_id %ID2%,,
+        Visible := True
+    }
 }
 Return
 
@@ -74,8 +90,6 @@ ExitApp
 
 
 
-
-; === Subroutines
 Ruler:
    MouseGetPos RulerX, RulerY
    RulerX := RulerX - 5  ;offset the mouse pointer a bit

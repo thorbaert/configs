@@ -23,6 +23,13 @@
     Send, {Volume_Up}
     return
 
+
+^!numberpad2::
+    If !WinExist("crosshair.ahk" . " ahk_class AutoHotkey")
+        Run, C:\tools\configs\crosshair.ahk
+    Return
+
+
 ^!.::
 ^!NumpadEnter::
     Run, nircmd mutesysvolume 2 microphone

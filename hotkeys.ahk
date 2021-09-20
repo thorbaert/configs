@@ -24,7 +24,7 @@
     return
 
 
-^!numberpad2::
+^!Numpad2::
     If !WinExist("crosshair.ahk" . " ahk_class AutoHotkey")
         Run, C:\tools\configs\crosshair.ahk
     Return

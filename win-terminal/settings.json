@@ -3,7 +3,10 @@
     "actions": 
     [
         {
-            "command": "closeTab",
+            "command": 
+            {
+                "action": "closeTab"
+            },
             "keys": "ctrl+w"
         },
         {
@@ -75,8 +78,11 @@
                 "colorScheme": "josh-colors",
                 "commandline": "powershell.exe",
                 "cursorShape": "vintage",
-                "fontFace": "Consolas",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 10
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
@@ -84,10 +90,13 @@
             },
             {
                 "colorScheme": "josh-colors",
-                "commandline": "pwsh",
+                "commandline": "pwsh -nologo",
                 "cursorShape": "vintage",
-                "fontFace": "Consolas",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 10
+                },
                 "guid": "{90cbdc15-f4fe-49d2-a245-ec066b70845f}",
                 "hidden": false,
                 "icon": "C:\\Program Files\\PowerShell\\7\\assets\\Powershell_av_colors.ico",
@@ -111,8 +120,7 @@
                 "guid": "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
                 "hidden": true,
                 "name": "cmd"
-            },
-            {}
+            }
         ]
     },
     "schemes": 

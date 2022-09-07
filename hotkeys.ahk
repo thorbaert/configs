@@ -30,10 +30,10 @@
     Return
 
 
-^!.::
-^!NumpadEnter::
-    Run, nircmd mutesysvolume 2 microphone
-    return
+;^!.::
+;^!NumpadEnter::
+;    Run, nircmd mutesysvolume 2 microphone
+;    return
 
 
 ; Utils

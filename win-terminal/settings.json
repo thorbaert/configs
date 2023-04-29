@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -15,10 +16,6 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+shift+w"
         },
         {
             "command": "unbound",
@@ -63,6 +60,10 @@
         {
             "command": "unbound",
             "keys": "ctrl+9"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+shift+w"
         }
     ],
     "defaultProfile": "{90cbdc15-f4fe-49d2-a245-ec066b70845f}",
@@ -76,7 +77,6 @@
         [
             {
                 "colorScheme": "josh-colors",
-                "commandline": "powershell.exe",
                 "cursorShape": "vintage",
                 "font": 
                 {
@@ -120,6 +120,11 @@
                 "guid": "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
                 "hidden": true,
                 "name": "cmd"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
             }
         ]
     },

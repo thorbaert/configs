@@ -70,6 +70,12 @@
     "initialCols": 170,
     "initialPosition": "29,32",
     "initialRows": 45,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": {},
@@ -81,7 +87,7 @@
                 "font": 
                 {
                     "face": "Consolas",
-                    "size": 10
+                    "size": 10.0
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -95,7 +101,7 @@
                 "font": 
                 {
                     "face": "Consolas",
-                    "size": 10
+                    "size": 10.0
                 },
                 "guid": "{90cbdc15-f4fe-49d2-a245-ec066b70845f}",
                 "hidden": false,
@@ -361,5 +367,50 @@
             "yellow": "#DBAF00"
         }
     ],
-    "snapToGridOnResize": true
+    "snapToGridOnResize": true,
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ]
 }

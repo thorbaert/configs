@@ -8,17 +8,13 @@
             {
                 "action": "closeTab"
             },
-            "keys": "ctrl+w"
+            "keys": "ctrl+shift+w"
         },
         {
             "command": 
             {
                 "action": "newTab"
             },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": "unbound",
             "keys": "ctrl+shift+t"
         },
         {
@@ -60,15 +56,11 @@
         {
             "command": "unbound",
             "keys": "ctrl+9"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+shift+w"
         }
     ],
     "defaultProfile": "{90cbdc15-f4fe-49d2-a245-ec066b70845f}",
     "initialCols": 170,
-    "initialPosition": "29,32",
+    "initialPosition": "30,30",
     "initialRows": 45,
     "newTabMenu": 
     [
@@ -368,49 +360,5 @@
         }
     ],
     "snapToGridOnResize": true,
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ]
+    "themes": []
 }

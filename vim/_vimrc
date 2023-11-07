@@ -23,3 +23,6 @@ set nobackup
 
 map <F2> :Ex<CR>
 
+map e W
+map w B
+

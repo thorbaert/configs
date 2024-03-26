@@ -36,13 +36,11 @@
   <template name="&gt;&gt;" value="($vars$) =&gt; {$END$ }" description="Quick Annon Func" toReformat="false" toShortenFQNames="true">
     <variable name="vars" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="&gt;&gt;r" value="(req, res, next) =&gt; {$END$ }" description="Express Annon" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>

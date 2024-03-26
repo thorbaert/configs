@@ -14,7 +14,6 @@
   <template name="a/" value="// Arrange$END$&#10;&#10;// Act&#10;&#10;// Assert&#10;" description="Comments" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CoffeeScript" value="true" />
-      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>

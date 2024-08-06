@@ -1,11 +1,15 @@
 <scheme name="josh-theme" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2021-05-13T17:51:04</property>
+    <property name="modified">2024-08-01T15:47:49</property>
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="115e00" />
     <option name="CARET_COLOR" value="f8f8f0" />
@@ -303,7 +307,6 @@
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="EFFECT_COLOR" value="c7c7ff" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">

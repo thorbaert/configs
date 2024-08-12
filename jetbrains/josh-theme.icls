@@ -4,7 +4,7 @@
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2024-08-01T15:47:49</property>
+    <property name="modified">2024-08-08T12:43:52</property>
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -663,7 +663,7 @@
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="" />
     <option name="GHERKIN_PYSTRING">
       <value>
         <option name="FOREGROUND" value="e6db74" />

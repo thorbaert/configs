@@ -4,7 +4,11 @@
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
+<<<<<<< HEAD
     <property name="modified">2024-10-23T00:19:08</property>
+=======
+    <property name="modified">2024-11-06T22:20:48</property>
+>>>>>>> e93c349dbda0ae144feca032e753abdebca82e3d
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />

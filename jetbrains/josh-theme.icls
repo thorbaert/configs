@@ -4,7 +4,7 @@
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2025-02-11T19:06:44</property>
+    <property name="modified">2025-02-12T21:19:21</property>
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -395,7 +395,7 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="DEFAULT_ATTRIBUTE" baseAttributes="" />
+    <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="bbbcbf" />
@@ -411,7 +411,7 @@
         <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
-    <option name="DEFAULT_CONSTANT" baseAttributes="" />
+    <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="96a8a0" />
@@ -469,7 +469,7 @@
         <option name="FOREGROUND" value="3ca0f9" />
       </value>
     </option>
-    <option name="DEFAULT_LABEL" baseAttributes="" />
+    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="bbbcbf" />
@@ -506,12 +506,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="" />
-    <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="" />
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_STATIC_FIELD">
       <value />
     </option>
-    <option name="DEFAULT_STATIC_METHOD" baseAttributes="" />
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="36e642" />
@@ -523,7 +523,7 @@
         <option name="BACKGROUND" value="272822" />
       </value>
     </option>
-    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="" />
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ae81ff" />
@@ -843,8 +843,8 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="JADE_FILTER_NAME" baseAttributes="" />
-    <option name="JADE_JS_BLOCK" baseAttributes="" />
+    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
+    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JADE_STATEMENTS">
       <value>
         <option name="FOREGROUND" value="f92672" />
@@ -913,11 +913,11 @@
         <option name="FOREGROUND" value="774ef9" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="" />
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="" />
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="" />
-    <option name="JS.PARAMETER" baseAttributes="" />
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="51e6ae" />

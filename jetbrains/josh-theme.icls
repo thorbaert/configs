@@ -1,15 +1,11 @@
 <scheme name="josh-theme" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2025-02-25T15:53:22</property>
+    <property name="modified">2025-03-05T11:57:15</property>
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="115e00" />
     <option name="CARET_COLOR" value="f8f8f0" />
@@ -665,7 +661,7 @@
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="" />
+    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="GHERKIN_PYSTRING">
       <value>
         <option name="FOREGROUND" value="e6db74" />

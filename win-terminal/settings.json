@@ -8,62 +8,71 @@
             {
                 "action": "closeTab"
             },
-            "id": "User.closeTab.0",
-            "keys": "ctrl+shift+w"
+            "id": "User.closeTab.0"
         },
         {
             "command": 
             {
                 "action": "newTab"
             },
-            "id": "User.newTab.5DEADB41",
-            "keys": "ctrl+shift+t"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+g"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+1"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+2"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+3"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+4"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+5"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+6"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+7"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+8"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+9"
+            "id": "User.newTab.5DEADB41"
         }
     ],
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "initialCols": 170,
     "initialPosition": "30,30",
     "initialRows": 40,
+    "keybindings": 
+    [
+        {
+            "id": "User.closeTab.0",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": "User.newTab.5DEADB41",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+g"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+5"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+1"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+4"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+3"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+6"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+7"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+8"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+9"
+        }
+    ],
     "newTabMenu": 
     [
         {

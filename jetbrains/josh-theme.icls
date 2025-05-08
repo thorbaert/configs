@@ -4,29 +4,29 @@
     <property name="created">2017-01-03T08:54:57</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2025-04-16T17:40:54</property>
+    <property name="modified">2025-05-07T19:47:48</property>
     <property name="originalScheme">MonoKai (mine)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="115e00" />
-    <option name="CARET_COLOR" value="f8f8f0" />
-    <option name="CARET_ROW_COLOR" value="0" />
+    <option name="ADDED_LINES_COLOR" value="115E00" />
+    <option name="CARET_COLOR" value="F8F8F0" />
+    <option name="CARET_ROW_COLOR" value="000000" />
     <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
     <option name="DOCUMENTATION_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="272822" />
     <option name="HTML_TAG_TREE_LEVEL0" value="880000" />
-    <option name="INDENT_GUIDE" value="3b3a32" />
-    <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
-    <option name="MODIFIED_LINES_COLOR" value="5d6f" />
+    <option name="INDENT_GUIDE" value="3B3A32" />
+    <option name="LINE_NUMBERS_COLOR" value="F8F8F2" />
+    <option name="MODIFIED_LINES_COLOR" value="005D6F" />
     <option name="RECENT_LOCATIONS_SELECTION" value="" />
-    <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
-    <option name="SELECTION_BACKGROUND" value="494d" />
+    <option name="SELECTED_INDENT_GUIDE" value="3B3A32" />
+    <option name="SELECTION_BACKGROUND" value="00494D" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="WHITESPACES" value="3b3a32" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="403a2b" />
+    <option name="WHITESPACES" value="3B3A32" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="403A2B" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -665,7 +665,7 @@
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="" />
+    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="GHERKIN_PYSTRING">
       <value>
         <option name="FOREGROUND" value="e6db74" />
@@ -843,8 +843,8 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="JADE_FILTER_NAME" baseAttributes="" />
-    <option name="JADE_JS_BLOCK" baseAttributes="" />
+    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
+    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JADE_STATEMENTS">
       <value>
         <option name="FOREGROUND" value="f92672" />

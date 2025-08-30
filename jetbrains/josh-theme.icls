@@ -843,8 +843,8 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
-    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="JADE_FILTER_NAME" baseAttributes="" />
+    <option name="JADE_JS_BLOCK" baseAttributes="" />
     <option name="JADE_STATEMENTS">
       <value>
         <option name="FOREGROUND" value="f92672" />
